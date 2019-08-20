@@ -28,12 +28,45 @@ a {
 
 .about{
     font-family: 'Comfortaa', sans-serif;
+    display: flex;
 }
 
 .about-title{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    height: 100vh;
+    background: rgb(250, 249, 252);
+}
+
+.about-scroll{
+    width:50%;
+    color: white;
+}
+
+.about-scroll div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-scroll div > p {
+    width: 80%;
+}
+
+.about-scroll div:nth-child(1){
+    background: #D83F87;
+}
+
+.about-scroll div:nth-child(2){
+    background: #4ABDAC;
+}
+
+.about-scroll div:nth-child(3){
+    background: #44318D;
 }
 
 footer{
