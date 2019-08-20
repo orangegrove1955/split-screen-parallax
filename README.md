@@ -8,3 +8,7 @@ The aim of the project is to create a useful example of a continuously scrolling
 
 - CSS3 nth child
 - CSS3 `position: sticky` to remain at top
+
+# Demo
+
+Check out the [Github Page](https://orangegrove1955.github.io/split-screen-parallax/)
