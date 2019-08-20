@@ -44,6 +44,7 @@ a {
     height: 100vh;
     background: rgb(250, 249, 252);
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
 }
 
