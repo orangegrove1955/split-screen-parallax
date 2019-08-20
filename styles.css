@@ -26,26 +26,33 @@ a {
     margin: 1rem;
 }
 
-.about{
+.wrapper{
     font-family: 'Comfortaa', sans-serif;
     display: flex;
 }
 
-.about-title{
+#about{
+    color: white;
+    background: black;
+}
+
+.title{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 100vh;
     background: rgb(250, 249, 252);
+    position: sticky;
+    top: 0;
 }
 
-.about-scroll{
+.scroll{
     width:50%;
     color: white;
 }
 
-.about-scroll div{
+.scroll div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,19 +60,19 @@ a {
     height: 100vh;
 }
 
-.about-scroll div > p {
+.scroll div > p {
     width: 80%;
 }
 
-.about-scroll div:nth-child(1){
+.scroll div:nth-child(1){
     background: #D83F87;
 }
 
-.about-scroll div:nth-child(2){
+.scroll div:nth-child(2){
     background: #4ABDAC;
 }
 
-.about-scroll div:nth-child(3){
+.scroll div:nth-child(3){
     background: #44318D;
 }
 
