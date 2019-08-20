@@ -1,4 +1,48 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poiret One', sans-serif;
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(135deg, rgba(79,0,255,1) 0%, rgba(65,232,237,1) 100%);
+}
+
+header h1{
+    font-size: 4rem;
+}
+header h2{
+    font-size: 1.75rem;
+}
+
+a {
+    color: white;
+    margin: 1rem;
+}
+
+.about{
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.about-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    min-height: 10vh;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding: 1rem;
 }
