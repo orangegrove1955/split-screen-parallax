@@ -8,6 +8,7 @@ The aim of the project is to create a useful example of a continuously scrolling
 
 - CSS3 nth child
 - CSS3 `position: sticky` to remain at top
+- Use of -webkit to allow CSS to work on multiple browsers
 
 # Demo
 
